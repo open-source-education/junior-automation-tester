@@ -21,26 +21,27 @@ https://github.com/jrichardsz/ecommerce-sample
 ### Automate User Registration process of e-commerce website
 
 Steps to Automate:
-
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter your email address in 'Create and account' section.
-4. Click on Create an Account button.
-5. Enter your Personal Information, Address and Contact info.
+1. Clone this repository https://github.com/vendure-ecommerce/vendure-docker-compose and use this ecommerce.
+2. Open this url  http://localhost:4000 .
+3. Click on "sign in" link.
+4. Click on "No account? Register here" link.
+5. Enter your credentials.
 6. Click on Register button.
-7. Validate that user is created.
+7. Validate if the page show the next message "Great! Now check your email (your email) to complete registration.".
 
 ## Negative Scenarios
 
-### Test Case - Verify invalid email address error.
+### Test Case - Check disabled button when email is invalid.
 
 Steps to Automate:
 
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter invalid email address in the email box and click enter.
-4. Validate that an error message is displaying saying "Invalid email address."
-
+1. Clone this repository https://github.com/vendure-ecommerce/vendure-docker-compose and use this ecommerce.
+2. Open this url  http://localhost:4000 .
+3. Click on "sign in" link.
+4. Click on "No account? Register here" link.
+5. Enter your credentials.
+6. Enter a invalid email, for example "user".
+7. Validates that the button is disabled.
 
 ### Test Case - Verify error messages for mandatory fields.
 
