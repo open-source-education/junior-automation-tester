@@ -45,6 +45,14 @@ Also here a motivational video that shows a guy that went through the "MIT Chall
 
 - [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
 
+## Prerequisite
+
+The **only things** that you need to have or know are:
+
+- Linux/Mac/Windows desktop or laptop. Linux is recommended
+- Internet connection
+- Programming basics
+
 **Are you ready to get started?**
 
 ## Syllabus
@@ -53,18 +61,36 @@ Also here a motivational video that shows a guy that went through the "MIT Chall
 
 Code | Course | Duration | Effort
 :-- | :-- | :-- | :--
-100 | [English for software developers](./jsd-100) | 1 week | 7-14 Hours/Week
-101 | [Introduction to Git](./jsd-101) | 1 week | 7-14 Hours/Week
-102 | [Introduction to Linux](#) | 1 week | 7-14 Hours/Week
-103 | [Introduction to Docker](#) | 1 week | 7-14 Hours/Week
-104 | [Introduction to Nodejs](#) | 1 week | 7-14 Hours/Week
-105 | [Html Elements](#) | 1 week | 7-14 Hours/Week
+c65f9966 | [English for software developers](./jsd-100) | 1 week | 7-14 Hours/Week
+acd58eb4 | [Introduction to Git](./jsd-101) | 1 week | 7-14 Hours/Week
+102bed7e | [Introduction to Linux](#) | 1 week | 7-14 Hours/Week
+432538ae | [Introduction to Docker](#) | 1 week | 7-14 Hours/Week
+42751734 | [Introduction to Nodejs](#) | 1 week | 7-14 Hours/Week
+4c90e305 | [Elementary Html](https://github.com/in28minutes/automation-testing-with-java-and-selenium/tree/master/html-basics) | 1 week | 7-14 Hours/Week
+c2854ea2 | [Test cases, Unit Tests & Asserts]() | 1 week | 7-14 Hours/Week
 
 ### 2nd Level
 
 Code | Course | Duration | Effort
 :-- | :-- | :-- | :--
-JSD 201 | [Ecommerce automation](#) | 1 week | 7-14 Hours/Week
+7f190ee0 |Introduction to Automation Testing with Selenium(#) | 1 week | 7-14 Hours/Week
+87ce7459 |Basic code to launch browser, load URL, Set timeouts and Maximize browser(#) | 1 week | 7-14 Hours/Week
+1b0d2eca |Browser Methods like get, findElement(s), close, manage, getTitle etc(#) | 1 week | 7-14 Hours/Week
+cb1232c0 |Selenium UI elements Locators(#) | 1 week | 7-14 Hours/Week
+c08dd04f |WebElement Methods like clear, sendKeys, click, getText, getAttibute etc(#) | 1 week | 7-14 Hours/Week
+82673e26 |How to handle dropdowns, checkbox, radiobutton, web table / calendar etc?(#) | 1 week | 7-14 Hours/Week
+beee6278 |Implicit and Explicit Waits(#) | 1 week | 7-14 Hours/Week
+bd8d9c46 |File upload & download(#) | 1 week | 7-14 Hours/Week
+5428a03a |Verification & validation commands(#) | 1 week | 7-14 Hours/Week
+12be2558 |How to take screenshot using selenium(#) | 1 week | 7-14 Hours/Week
+0a79069e |Html Table(#) | 1 week | 7-14 Hours/Week
+
+
+### 3rd Level
+
+Code | Course | Duration | Effort
+:-- | :-- | :-- | :--
+436a9024 | [Ecommerce automation](./436a9024) | 1 week | 7-14 Hours/Week
 
 
 ---
@@ -73,7 +99,7 @@ JSD 201 | [Ecommerce automation](#) | 1 week | 7-14 Hours/Week
 
 ### How to Learn
 
-The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
+Thist will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
 
 - [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 
@@ -119,13 +145,12 @@ You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 
 
 ### Project Based
 
-Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
+Here you do **not** need to take exams, because we are focused on **real projects**!
 
 In order to show for everyone that you **successfully** finished a course, you should create a **real project** or write **papers and publish them** about your focus with Bioinformatics.
 
 > "What does it mean?"
 
-After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
 
   <!-- Put the OSSU-Bioinformatics badge in the README of your repository! [![Open Source Society University - Bioinformatics](https://img.shields.io/badge/OSSU-bioinformatics-blue.svg)](https://github.com/open-source-society/bioinformatics)
 
@@ -174,19 +199,6 @@ You must share **only** files that you are **allowed** to! **Do NOT disrespect t
 
 [Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
 
-## Prerequisite
-
-The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
-
-**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
-
-- [Try Git](https://try.github.io/levels/1/challenges/1)
-- [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
-- [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
-- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
-- [Git Immersion](http://gitimmersion.com/index.html)
-- [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-
 ## How to collaborate
 
 You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
@@ -213,6 +225,16 @@ Subscribe to our [newsletter](https://tinyletter.com/OpenSourceSocietyUniversity
 You can also interact through [GitHub issues](https://github.com/open-source-society/bioinformatics/issues).
 
 Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) and join our [Facebook](https://www.facebook.com/groups/opensourcesocietyu/) group! -->
+
+## Sources and Samples
+
+- https://github.com/TestLeafInc/TestLeafSeleniumTraining
+- https://github.com/in28minutes/automation-testing-with-java-and-selenium#step-list
+- https://www.besanttechnologies.com/selenium-course-syllabus
+- https://github.com/taislu/Selenium_Java
+- https://www.deccansoft.com/Documents/SyllabusDocs/bd563fb3-6421-41f3-98c7-db8799f5657a_Syllabus_of_Selenium_with_Java.pdf
+- http://www.durgasoft.com/selenium-syllabus.asp
+- http://www.greenstechnologys.com/selenium-training-syllabus.html
 
 ## Contributors
 
