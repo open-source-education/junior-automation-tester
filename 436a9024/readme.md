@@ -15,49 +15,95 @@ Try automating the above scenarios using Selenium commands, if you face any diff
 
 ## Web
 
-- https://github.com/shopping-apps/ecommerce
+- https://github.com/jrichardsz/ecommerce-sample
 
 Follow the readme and start it!!
 
-### (+)Automate User Registration process of e-commerce website
+### (+) Automate User Registration process of e-commerce website
 
 Steps to Automate:
 
-1. Open this url  http://localhost:4000 .
+1. Open this url http://localhost:4000 .
 2. Click on "sign in" link.
 3. Click on "No account? Register here" link.
 4. Enter your credentials.
 5. Click on Register button.
 6. Validate if the page show the next message "Great! Now check your email (your email) to complete registration.".
 
-### (-)Verify invalid email address error.
+### (-) Verify invalid email address error.
 
 Steps to Automate:
 
-1. Open this url  http://localhost:4000 .
+1. Open this url http://localhost:4000 .
 2. Click on "sign in" link.
 3. Click on "No account? Register here" link.
 4. Enter your credentials.
 5. Enter a invalid email, for example "user".
 6. Validates that the button is disabled.
 
-
-### (-)Verify error messages for mandatory fields.
-
-Steps to Automate:
-
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter email address and click Register button.
-4. Leave the mandatory fields (marked with *) blank and click Register button.
-5. Verify that error has been displayed for the mandatory fields.
-
-### (-)Verify error messages for entering incorrect values in fields.
+### (-) Verify that when the account is registered with missing data it does not send to start session
 
 Steps to Automate:
 
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter email address and click Register button.
-4. Enter incorrect values in fields like., enter numbers in first and last name, city field etc., and enter alphabets in Mobile no, Zip postal code etc., and click on 'Register' button.
-5. Verify that error messages fpr respective fields are displaying.
+1. Clone this repository https://github.com/sumitkumar1503/ecommerce, and run this ecommerce .
+2. Open this url http://localhost:8000 .
+3. Click on 'Sign up' link.
+4. Enter the user data leaving the address empty.
+5. Click in create button.
+6. Verify the cursor has passed to 'address' and that the URL has not changed.
+
+### (-) Verify the error messages for entering invalid email
+
+Steps to Automate:
+
+1. Open this url http://automationpractice.com/index.php
+2. Click on 'Sign in' link.
+3. Enter invalid email address and click 'Create an account' button.
+4. Check verify that the error messages for the wrong email are displayed
+
+
+## Test cases for products
+---
+### (+) Verify that product can be registered
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/adminlogin (ecommerce)
+2. Enter credentials (user: admin | password: javaisthebest)
+3. Go to 'Products'
+4. Click button with icon plus (+)
+5. Enter product data (name, description, price and image)
+6. Click ADD button
+7. Verify that the product was added in the list of results
+
+### (+) Verify product search
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/ (ecommerce)
+2. Go to search box product
+3. Enter the name product search
+4. Click button search with magnifying glass icon
+5. Verify that the product to search for is in the list of results
+
+### (+) Verify that the product can be modified
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/adminlogin (ecommerce)
+2. Enter credentials (user: admin | password: javaisthebest)
+3. Go to 'Products'
+4. Select first product and click button update
+5. Change name and price product
+6. Click update button
+7. Verify that the product was modified in the list of results
+
+### (+) Verify that the product can be removed
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/adminlogin (ecommerce)
+2. Enter credentials (user: admin | password: javaisthebest)
+3. Go to 'Products'
+4. Select first product and click button delete
+5. Verify that the product was removed in the list of results
