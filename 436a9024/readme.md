@@ -80,7 +80,7 @@ Steps to Automate:
 
 Steps to Automate:
 
-1. Open this url http://127.0.0.1:8000/ (ecommerce)
+1. Open this url http://localhost:8000/ (ecommerce)
 2. Go to search box product
 3. Enter the name product search
 4. Click button search with magnifying glass icon
