@@ -73,7 +73,7 @@ Steps to Automate:
 4. Click button with icon plus (+)
 5. Enter product data (name, description, price and image)
 6. Click ADD button
-7. Verify that the product was added
+7. Verify that the product was added in the list of results
 
 ### (+) Verify product search
 
@@ -95,7 +95,7 @@ Steps to Automate:
 4. Select first product and click button update
 5. Change name and price product
 6. Click update button
-7. Verify that the product was added to the table 
+7. Verify that the product was modified in the list of results
 
 ### (+) Verify that the product can be removed
 
@@ -105,4 +105,4 @@ Steps to Automate:
 2. Enter credentials (user: admin | password: javaisthebest)
 3. Go to 'Products'
 4. Select first product and click button delete
-5. Verify that the product was removed
+5. Verify that the product was removed in the list of results
