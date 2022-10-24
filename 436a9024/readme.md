@@ -6,7 +6,8 @@ In this project assignment, you will learn to automate different functionalities
 
 ## Inspiration
 
-https://www.techlistic.com/p/selenium-assignments.html
+- https://www.techlistic.com/p/selenium-assignments.html
+- https://www.softwaretestinghelp.com/ecommerce-testing/
 
 ## Laboratory
 
@@ -14,7 +15,7 @@ Try automating the above scenarios using Selenium commands, if you face any diff
 
 ## Web
 
-- https://github.com/jrichardsz/ecommerce-sample
+- https://github.com/shopping-apps/ecommerce
 
 Follow the readme and start it!!
 
