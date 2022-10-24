@@ -14,35 +14,34 @@ Try automating the above scenarios using Selenium commands, if you face any diff
 
 ## Web
 
-https://github.com/jrichardsz/ecommerce-sample
+- https://github.com/jrichardsz/ecommerce-sample
 
-## Positive Scenarios
+Follow the readme and start it!!
 
-### Automate User Registration process of e-commerce website
-
-Steps to Automate:
-
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter your email address in 'Create and account' section.
-4. Click on Create an Account button.
-5. Enter your Personal Information, Address and Contact info.
-6. Click on Register button.
-7. Validate that user is created.
-
-## Negative Scenarios
-
-### Test Case - Verify invalid email address error.
+### (+)Automate User Registration process of e-commerce website
 
 Steps to Automate:
 
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter invalid email address in the email box and click enter.
-4. Validate that an error message is displaying saying "Invalid email address."
+1. Open this url  http://localhost:4000 .
+2. Click on "sign in" link.
+3. Click on "No account? Register here" link.
+4. Enter your credentials.
+5. Click on Register button.
+6. Validate if the page show the next message "Great! Now check your email (your email) to complete registration.".
+
+### (-)Verify invalid email address error.
+
+Steps to Automate:
+
+1. Open this url  http://localhost:4000 .
+2. Click on "sign in" link.
+3. Click on "No account? Register here" link.
+4. Enter your credentials.
+5. Enter a invalid email, for example "user".
+6. Validates that the button is disabled.
 
 
-### Test Case - Verify error messages for mandatory fields.
+### (-)Verify error messages for mandatory fields.
 
 Steps to Automate:
 
@@ -52,7 +51,7 @@ Steps to Automate:
 4. Leave the mandatory fields (marked with *) blank and click Register button.
 5. Verify that error has been displayed for the mandatory fields.
 
-### Test Case - Verify error messages for entering incorrect values in fields.
+### (-)Verify error messages for entering incorrect values in fields.
 
 Steps to Automate:
 

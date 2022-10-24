@@ -61,29 +61,29 @@ The **only things** that you need to have or know are:
 
 Code | Course | Duration | Effort
 :-- | :-- | :-- | :--
-c65f9966 | [English for software developers](./jsd-100) | 1 week | 7-14 Hours/Week
-acd58eb4 | [Introduction to Git](./jsd-101) | 1 week | 7-14 Hours/Week
-102bed7e | [Introduction to Linux](#) | 1 week | 7-14 Hours/Week
-432538ae | [Introduction to Docker](#) | 1 week | 7-14 Hours/Week
-42751734 | [Introduction to Nodejs](#) | 1 week | 7-14 Hours/Week
+c65f9966 | [English for software developers](./c65f9966) | 1 week | 7-14 Hours/Week
+acd58eb4 | [Introduction to Git](./acd58eb4) | 1 week | 7-14 Hours/Week
+102bed7e | Introduction to Linux | 1 week | 7-14 Hours/Week
+432538ae | Introduction to Docker | 1 week | 7-14 Hours/Week
+42751734 | Introduction to Nodejs | 1 week | 7-14 Hours/Week
 4c90e305 | [Elementary Html](https://github.com/in28minutes/automation-testing-with-java-and-selenium/tree/master/html-basics) | 1 week | 7-14 Hours/Week
-c2854ea2 | [Test cases, Unit Tests & Asserts]() | 1 week | 7-14 Hours/Week
+c2854ea2 | Test cases, Unit Tests & Asserts | 1 week | 7-14 Hours/Week
 
 ### 2nd Level
 
 Code | Course | Duration | Effort
 :-- | :-- | :-- | :--
-7f190ee0 |Introduction to Automation Testing with Selenium(#) | 1 week | 7-14 Hours/Week
-87ce7459 |Basic code to launch browser, load URL, Set timeouts and Maximize browser(#) | 1 week | 7-14 Hours/Week
-1b0d2eca |Browser Methods like get, findElement(s), close, manage, getTitle etc(#) | 1 week | 7-14 Hours/Week
-cb1232c0 |Selenium UI elements Locators(#) | 1 week | 7-14 Hours/Week
-c08dd04f |WebElement Methods like clear, sendKeys, click, getText, getAttibute etc(#) | 1 week | 7-14 Hours/Week
-82673e26 |How to handle dropdowns, checkbox, radiobutton, web table / calendar etc?(#) | 1 week | 7-14 Hours/Week
-beee6278 |Implicit and Explicit Waits(#) | 1 week | 7-14 Hours/Week
-bd8d9c46 |File upload & download(#) | 1 week | 7-14 Hours/Week
-5428a03a |Verification & validation commands(#) | 1 week | 7-14 Hours/Week
-12be2558 |How to take screenshot using selenium(#) | 1 week | 7-14 Hours/Week
-0a79069e |Html Table(#) | 1 week | 7-14 Hours/Week
+7f190ee0 |Introduction to Automation Testing with Selenium | 1 week | 7-14 Hours/Week
+87ce7459 |Basic code to launch browser, load URL, Set timeouts and Maximize browser | 1 week | 7-14 Hours/Week
+1b0d2eca |Browser Methods like get, findElement(s), close, manage, getTitle etc | 1 week | 7-14 Hours/Week
+cb1232c0 |Selenium UI elements Locators | 1 week | 7-14 Hours/Week
+c08dd04f |WebElement Methods like clear, sendKeys, click, getText, getAttibute etc | 1 week | 7-14 Hours/Week
+82673e26 |How to handle dropdowns, checkbox, radiobutton, web table / calendar etc? | 1 week | 7-14 Hours/Week
+beee6278 |Implicit and Explicit Waits | 1 week | 7-14 Hours/Week
+bd8d9c46 |File upload & download | 1 week | 7-14 Hours/Week
+5428a03a |Verification & validation commands | 1 week | 7-14 Hours/Week
+12be2558 |How to take screenshot using selenium | 1 week | 7-14 Hours/Week
+0a79069e |Html Table | 1 week | 7-14 Hours/Week
 
 
 ### 3rd Level
@@ -107,7 +107,7 @@ Thist will teach you learning techniques used by experts in art, music, literatu
 
 This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
 
-The courses are **already** in the order that you should complete them. Just start the first course, [English for software developers](#), when you done with it, start the next one.
+The courses are **already** in the order that you should complete them. Just start the first course, [English for software developers], when you done with it, start the next one.
 
 **If the course is not open, do it with the archived resources or wait until next class is open.**
 
