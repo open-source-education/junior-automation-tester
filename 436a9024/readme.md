@@ -40,23 +40,38 @@ Steps to Automate:
 5. Enter a invalid email, for example "user".
 6. Validates that the button is disabled.
 
+### (+)Automate User Login process of e-commerce website
 
-### (-)Verify error messages for mandatory fields.
+1. Open this url  http://localhost:8000 .
+2. Click on "Login & SignUp" link.
+3. Enter your credentials.
+4. Click on "Login" button.
+5. Click on "Profile" link.
+6. Validate if your username is on the page.
+
+### (+)Automate User Logout process of e-commerce website
+
+1. Open this url  http://localhost:8000 .
+2. Follow the steps to login.
+3. Click on "Logout" link.
+4. Validate if your new url is http://0.0.0.0:8000/logout .
+
+### (-) Verify that when the account is registered with missing data it does not send to start session
 
 Steps to Automate:
 
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter email address and click Register button.
-4. Leave the mandatory fields (marked with *) blank and click Register button.
-5. Verify that error has been displayed for the mandatory fields.
+1. Clone this repository https://github.com/sumitkumar1503/ecommerce, and run this ecommerce .
+2. Open this url  http://localhost:8000 .
+3. Click on 'Sign up' link.
+4. Enter the user data leaving the address empty.
+5. Click in create button.
+6. Verify the cursor has passed to 'address' and that the URL has not changed.
 
-### (-)Verify error messages for entering incorrect values in fields.
+### (-) Verify the error messages for entering invalid email
 
 Steps to Automate:
 
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter email address and click Register button.
-4. Enter incorrect values in fields like., enter numbers in first and last name, city field etc., and enter alphabets in Mobile no, Zip postal code etc., and click on 'Register' button.
-5. Verify that error messages fpr respective fields are displaying.
+1. Open this url  http://automationpractice.com/index.php .
+2. Click on 'Sign in' link.
+3. Enter invalid email address and click 'Create an account' button.
+4. Check verify that the error messages for the wrong email are displayed.
