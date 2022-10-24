@@ -14,50 +14,48 @@ Try automating the above scenarios using Selenium commands, if you face any diff
 
 ## Web
 
-https://github.com/jrichardsz/ecommerce-sample
+- https://github.com/jrichardsz/ecommerce-sample
 
-## Positive Scenarios
+Follow the readme and start it!!
 
-### Automate User Registration process of e-commerce website
+### (+)Automate User Registration process of e-commerce website
+
+Steps to Automate:
+
+1. Open this url  http://localhost:4000 .
+2. Click on "sign in" link.
+3. Click on "No account? Register here" link.
+4. Enter your credentials.
+5. Click on Register button.
+6. Validate if the page show the next message "Great! Now check your email (your email) to complete registration.".
+
+### (-)Verify invalid email address error.
+
+Steps to Automate:
+
+1. Open this url  http://localhost:4000 .
+2. Click on "sign in" link.
+3. Click on "No account? Register here" link.
+4. Enter your credentials.
+5. Enter a invalid email, for example "user".
+6. Validates that the button is disabled.
+
+### (-)Test Case - Check that when the account is registered with missing data it does not send to start session
+
+Steps to Automate:
+
+1. Clone this repository https://github.com/sumitkumar1503/ecommerce, and run this ecommerce .
+2. Open this url  http://localhost:8000 .
+3. Click on 'Sign up' link.
+4. Enter the user data leaving the address empty.
+5. Click in create button.
+6. Verify the cursor has passed to 'address' and that the URL has not changed.
+
+### (-)Test Case - Check the error messages for entering invalid email
 
 Steps to Automate:
 
 1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter your email address in 'Create and account' section.
-4. Click on Create an Account button.
-5. Enter your Personal Information, Address and Contact info.
-6. Click on Register button.
-7. Validate that user is created.
-
-## Negative Scenarios
-
-### Test Case - Verify invalid email address error.
-
-Steps to Automate:
-
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter invalid email address in the email box and click enter.
-4. Validate that an error message is displaying saying "Invalid email address."
-
-
-### Test Case - Verify error messages for mandatory fields.
-
-Steps to Automate:
-
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter email address and click Register button.
-4. Leave the mandatory fields (marked with *) blank and click Register button.
-5. Verify that error has been displayed for the mandatory fields.
-
-### Test Case - Verify error messages for entering incorrect values in fields.
-
-Steps to Automate:
-
-1. Open this url  http://automationpractice.com/index.php
-2. Click on sign in link.
-3. Enter email address and click Register button.
-4. Enter incorrect values in fields like., enter numbers in first and last name, city field etc., and enter alphabets in Mobile no, Zip postal code etc., and click on 'Register' button.
-5. Verify that error messages fpr respective fields are displaying.
+2. Click on 'Sign in' link.
+3. Enter invalid email address and click 'Create an account' button.
+5. Check verify that the error messages for the wrong email are displayed
