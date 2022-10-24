@@ -18,7 +18,7 @@ Try automating the above scenarios using Selenium commands, if you face any diff
 
 Follow the readme and start it!!
 
-### (+)Automate User Registration process of e-commerce website
+### (+) Automate User Registration process of e-commerce website
 
 Steps to Automate:
 
@@ -29,7 +29,7 @@ Steps to Automate:
 5. Click on Register button.
 6. Validate if the page show the next message "Great! Now check your email (your email) to complete registration.".
 
-### (-)Verify invalid email address error.
+### (-) Verify invalid email address error.
 
 Steps to Automate:
 
@@ -40,7 +40,7 @@ Steps to Automate:
 5. Enter a invalid email, for example "user".
 6. Validates that the button is disabled.
 
-### (-)Test Case - Check that when the account is registered with missing data it does not send to start session
+### (-) Verify that when the account is registered with missing data it does not send to start session
 
 Steps to Automate:
 
@@ -51,7 +51,7 @@ Steps to Automate:
 5. Click in create button.
 6. Verify the cursor has passed to 'address' and that the URL has not changed.
 
-### (-)Test Case - Check the error messages for entering invalid email
+### (-) Verify the error messages for entering invalid email
 
 Steps to Automate:
 
