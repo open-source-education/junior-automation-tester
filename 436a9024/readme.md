@@ -22,7 +22,7 @@ Follow the readme and start it!!
 
 Steps to Automate:
 
-1. Open this url  http://localhost:4000 .
+1. Open this url http://localhost:4000 .
 2. Click on "sign in" link.
 3. Click on "No account? Register here" link.
 4. Enter your credentials.
@@ -33,7 +33,7 @@ Steps to Automate:
 
 Steps to Automate:
 
-1. Open this url  http://localhost:4000 .
+1. Open this url http://localhost:4000 .
 2. Click on "sign in" link.
 3. Click on "No account? Register here" link.
 4. Enter your credentials.
@@ -45,7 +45,7 @@ Steps to Automate:
 Steps to Automate:
 
 1. Clone this repository https://github.com/sumitkumar1503/ecommerce, and run this ecommerce .
-2. Open this url  http://localhost:8000 .
+2. Open this url http://localhost:8000 .
 3. Click on 'Sign up' link.
 4. Enter the user data leaving the address empty.
 5. Click in create button.
@@ -55,7 +55,54 @@ Steps to Automate:
 
 Steps to Automate:
 
-1. Open this url  http://automationpractice.com/index.php
+1. Open this url http://automationpractice.com/index.php
 2. Click on 'Sign in' link.
 3. Enter invalid email address and click 'Create an account' button.
-5. Check verify that the error messages for the wrong email are displayed
+4. Check verify that the error messages for the wrong email are displayed
+
+
+## Test cases for products
+---
+### (+) Verify that product can be registered
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/adminlogin (ecommerce)
+2. Enter credentials (user: admin | password: javaisthebest)
+3. Go to 'Products'
+4. Click button with icon plus (+)
+5. Enter product data (name, description, price and image)
+6. Click ADD button
+7. Verify that the product was added
+
+### (+) Verify product search
+
+Steps to Automate:
+
+1. Open this url http://127.0.0.1:8000/ (ecommerce)
+2. Go to search box product
+3. Enter the name product search
+4. Click button search with magnifying glass icon
+5. Verify that the product to search for is in the list of results
+
+### (+) Verify that the product can be modified
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/adminlogin (ecommerce)
+2. Enter credentials (user: admin | password: javaisthebest)
+3. Go to 'Products'
+4. Select first product and click button update
+5. Change name and price product
+6. Click update button
+7. Verify that the product was added to the table 
+
+### (+) Verify that the product can be removed
+
+Steps to Automate:
+
+1. Open this url http://localhost:8000/adminlogin (ecommerce)
+2. Enter credentials (user: admin | password: javaisthebest)
+3. Go to 'Products'
+4. Select first product and click button delete
+5. Verify that the product was removed
