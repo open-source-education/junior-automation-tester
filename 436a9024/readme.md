@@ -6,7 +6,8 @@ In this project assignment, you will learn to automate different functionalities
 
 ## Inspiration
 
-https://www.techlistic.com/p/selenium-assignments.html
+- https://www.techlistic.com/p/selenium-assignments.html
+- https://www.softwaretestinghelp.com/ecommerce-testing/
 
 ## Laboratory
 
