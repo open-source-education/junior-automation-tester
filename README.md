@@ -86,10 +86,13 @@ bd8d9c46 |File upload & download | 1 week | 7-14 Hours/Week
 0a79069e |Html Table | 1 week | 7-14 Hours/Week
 
 
+
 ### 3rd Level
 
 Code | Course | Duration | Effort
 :-- | :-- | :-- | :--
+dd54eecb | [Selenium4All Framework](./dd54eecb) | 1 week | 7-14 Hours/Week
+b058bdc5 | [Simple British Encyclopedia search](./b058bdc5) | 1 week | 7-14 Hours/Week
 436a9024 | [Ecommerce automation](./436a9024) | 1 week | 7-14 Hours/Week
 
 
